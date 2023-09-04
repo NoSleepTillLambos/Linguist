@@ -1,38 +1,118 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+}
+body {
+  background-image: url("../src/assets/background.png");
+  background-repeat: no-repeat;
+  image-rendering: smooth;
+  background-size: cover;
+}
+h1 {
   text-align: center;
+  color: white;
+  margin-top: 5%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.engText {
+  width: 40%;
+  border: none;
+  color: white;
+  font-size: 15px;
+  /* From https://css.glass */
+  background: rgba(41, 244, 122, 0.36);
+  border-radius: 5px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.2px);
+  -webkit-backdrop-filter: blur(7.2px);
+  border: 1px solid rgba(41, 244, 122, 0.68);
+  height: 150px;
+  resize: none;
+  padding: 1%;
+  margin-top: 6%;
+  margin-left: 5%;
+  float: left;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.engText::placeholder {
+  color: white;
+  opacity: 0.6;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.translateBox {
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.frenchText {
+  width: 40%;
+  border: none;
+  color: white;
+  font-size: 15px;
+  margin-top: 6%;
+  margin-right: 5%;
+  padding: 1%;
+  /* From https://css.glass */
+  background: rgba(41, 244, 122, 0.36);
+  border-radius: 5px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.2px);
+  -webkit-backdrop-filter: blur(7.2px);
+  border: 1px solid rgba(41, 244, 122, 0.68);
+  height: 150px;
+  resize: none;
+  float: right;
+}
+.frenchText::placeholder {
+  color: white;
+  opacity: 0.6;
+}
+.transBtn {
+  height: 50px;
+  float: right;
+  margin-top: 10%;
+  margin-left: 40px;
+  position: absolute;
+  right: 80px;
+  width: 200px;
+  top: 260px;
+  border: none;
+  border-radius: 5px;
+  background-color: #002233;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.transBtn :hover {
+  opacity: 0.2;
+  color: white;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.langChoice {
+  position: absolute;
+  height: 50px;
+  right: 34.5%;
+  text-align: center;
+  top: 56.5%;
+}
+option {
+  text-align: center;
+}
+select {
+  height: 50px;
+  border-radius: 5px;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00aa81;
+  color: white;
+}
+.english {
+  position: absolute;
+  height: 50px;
+  right: 40%;
+  top: 56.5%;
+  left: 34.5%;
+}
+.changeImg {
+  position: absolute;
+  top: 37%;
+  height: 50px;
+  left: 48.5%;
 }
