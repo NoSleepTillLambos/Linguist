@@ -3,14 +3,16 @@ import TranslatedText from "./TranslatedText";
 import { useState } from "react";
 
 const Textarea = () => {
-  // 1
+  // 1 fetching the data and language pairs from the API
   const getText = () => {
     const text = document.querySelector("textarea").value;
     const translated = document.querySelector(".translated");
+    // storing the text in the api call to make the request from english to french
     let urlApi = `https://api.mymemory.translated.net/get?q=${text}!&langpair=${
       langCode === "en" ? "en" : "fr"
     }|${langCode === "en" ? "fr" : "en"}`;
     fetch(urlApi)
+      // storing the api in a res.json format
       .then((res) => res.json())
       .then((data) => {
         const resultText = data.responseData.translatedText;

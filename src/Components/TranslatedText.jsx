@@ -12,7 +12,7 @@ const TranslatedText = ({ lang }) => {
       <div className="">
         <div className="langChoice">
           <select className="selectTo">
-            <option value="tr">
+            <option value="fr">
               {lang === "English" ? "French" : "English"}
             </option>
           </select>
