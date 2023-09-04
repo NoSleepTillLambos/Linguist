@@ -1,70 +1,151 @@
-# Getting Started with Create React App
+<!-- Repository Information & Links-->
+<br />
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![GitHub repo size](https://img.shields.io/github/repo-size/MikeMaynard14/termoneexample)
+![GitHub watchers](https://img.shields.io/github/watchers/MikeMaynard14/termoneexample)
+![GitHub language count](https://img.shields.io/github/languages/count/MikeMaynard14/termoneexample)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/MikeMaynard14/termoneexample)
 
-## Available Scripts
+<!-- HEADER SECTION -->
+<h5 align="center" style="padding:0;margin:0;">Liam Wedge</h5>
+<h5 align="center" style="padding:0;margin:0;">21100218</h5>
+<h6 align="center">DV THEORY | TERM 3 PROJECT </h6>
+</br>
+<p align="center">
 
-In the project directory, you can run:
+  <a href="[https://github.com/NoSleepTillLambos/Linguist]">
+    <img src="src/assets/logo.png" alt="Logo" width="140" height="140">
+  </a>
+  
+  <h3 align="center">Linguist</h3>
 
-### `npm start`
+  <p align="center">
+    A React js project developed using the MyMemory translation API  <br>
+    
+    
+</p>
+<!-- TABLE OF CONTENTS -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Table of Contents
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- The project is centred around the cryptocurrency ecosystem and was run and developed through the use of REACT JS and was
+  - The application allows users to explore charts and prices from the various top market cap currencies
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [How to install](#how-to-install)
+- [Features and Functionality](#features-and-functionality)
+- [Concept Process](#concept-process)
+  - [Ideation](#ideation)
+  - [WireFrames](#wireframes)
+  - [Custom UI](#user-flow)
+- [Development Process](#development-process)
+  - [Implementation Process](#implementation-process)
+  - [Future Implementation](#peer-reviews)
+- [Final Outcome](#final-outcome)
+  - [Mockups](#mockups)
+  - [Video Demonstration](#video-demonstration)
+- [Conclusion](#conclusion)
+- [License](#license)
+- [Contact](liamwedge00@gmail.com)
+- [Acknowledgements](#acknowledgements)
 
-### `npm test`
+### Built With
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [MyMemory][https://mymemory.translated.net/]
+- [React](https://reactjs.org/)
 
-### `npm run build`
+<!-- GETTING STARTED -->
+<!-- Make sure to add appropriate information about what prerequsite technologies the user would need and also the steps to install your project on their own machines -->
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The following instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+Ensure that you have the latest version of [NPM](https://www.npmjs.com/) installed on your machine. The [GitHub Desktop](https://desktop.github.com/) program will also be required.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### How to install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Here are a couple of ways to clone this repo:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1.  GitHub Desktop </br>
+    Enter `https://github.com/NoSleepTillLambos/21100218_LiamWedge_DV_project` into the URL field and press the `Clone` button.
 
-## Learn More
+2.  Clone Repository </br>
+    Run the following in the command-line to clone the project:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    ```sh
+    git clone https://github.com/NoSleepTillLambos/Linguist
+    ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+        Open `Software` and select `File | Open...` from the menu. Select cloned directory and press `Open` button
 
-### Code Splitting
+3.  Install Dependencies </br>
+    Run the following in the command-line to install all the required dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    ```sh
+    npm install
+    ```
 
-### Analyzing the Bundle Size
+4.  An API key is not required for this installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<!-- FEATURES AND FUNCTIONALITY-->
+<!-- You can add the links to all of your imagery at the bottom of the file as references -->
 
-### Making a Progressive Web App
+### Implementation Process
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<!-- stipulate all of the functionality you included in the project -->
+<!-- This is your time to shine, explain the technical nuances of your project, how did you achieve the final outcome!-->
 
-### Advanced Configuration
+- Feteching data from the mymemory API
+- UI
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+#### Above And Beyond
 
-### Deployment
+Going above and beyond the brief
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<!-- what did you learn outside of the classroom and implement into your project-->
 
-### `npm run build` fails to minify
+- Switching back and forth between English and French
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- MOCKUPS -->
+
+## Final Outcome
+
+### Mockups
+
+![image2](src/assets/mockup.png)
+<br>
+
+See the [open issues][https://github.com/NoSleepTillLambos/Linguist/issues] for a list of proposed features (and known issues).
+
+<!-- AUTHORS -->
+
+## Authors
+
+[LiamWedge](https://github.com/NoSleepTillLambos)
+
+<!-- LICENSE -->
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.\
+
+<!-- LICENSE -->
+
+## Contact
+
+- **Liam Wedge** - [21100218@virtualwindow.co.za]()
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## Acknowledgements
+
+<!-- all resources that you used and Acknowledgements here -->
+
+- [MyMemory][https://mymemory.translated.net/]
+- [React](https://reactjs.org/)
+
