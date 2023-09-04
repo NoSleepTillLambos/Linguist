@@ -28,8 +28,6 @@
 
 ## Table of Contents
 
-- The project is centred around the cryptocurrency ecosystem and was run and developed through the use of REACT JS and was
-  - The application allows users to explore charts and prices from the various top market cap currencies
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [How to install](#how-to-install)
@@ -146,6 +144,6 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 
 <!-- all resources that you used and Acknowledgements here -->
 
-- [MyMemory][https://mymemory.translated.net/]
+- [MyMemory](https://mymemory.translated.net/)
 - [React](https://reactjs.org/)
 
